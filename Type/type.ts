@@ -3,3 +3,11 @@ export interface HouseType {
     title: string,
     img: string
 }
+
+export interface AboutType {
+    key: number,
+    img: string,
+    name: string,
+    job: string,
+    details: string
+}

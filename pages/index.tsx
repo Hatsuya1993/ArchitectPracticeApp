@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../Components/About'
 import Banner from '../Components/Banner'
 import NavBar from '../Components/NavBar'
 import Projects from '../Components/Projects'
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <NavBar />
       <Banner />
       <Projects />
+      <About />
     </div>
   )
 }
